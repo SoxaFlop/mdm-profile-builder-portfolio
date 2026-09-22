@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200000000000000000000001 /* AppleFoundationModelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000001 /* AppleFoundationModelService.swift */; };
+		200000000000000000000002 /* LocalModelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000002 /* LocalModelService.swift */; };
+		200000000000000000000003 /* MDMCopilotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000003 /* MDMCopilotApp.swift */; };
+		200000000000000000000004 /* RestrictionCatalogue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000004 /* RestrictionCatalogue.swift */; };
+		200000000000000000000005 /* ProfileCompiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000005 /* ProfileCompiler.swift */; };
+		200000000000000000000006 /* ValidationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000006 /* ValidationEngine.swift */; };
+		200000000000000000000007 /* JamfSchoolConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000007 /* JamfSchoolConnector.swift */; };
+		200000000000000000000008 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000008 /* ChatMessage.swift */; };
+		200000000000000000000009 /* ProfileIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000009 /* ProfileIntent.swift */; };
+		20000000000000000000000A /* JamfCredentialStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30000000000000000000000A /* JamfCredentialStore.swift */; };
+		20000000000000000000000B /* ConnectionSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30000000000000000000000B /* ConnectionSettingsViewModel.swift */; };
+		20000000000000000000000C /* WorkspaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30000000000000000000000C /* WorkspaceViewModel.swift */; };
+		20000000000000000000000D /* AIConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30000000000000000000000D /* AIConversationView.swift */; };
+		20000000000000000000000E /* ConnectionSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30000000000000000000000E /* ConnectionSettingsView.swift */; };
+		20000000000000000000000F /* JamfIntegrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30000000000000000000000F /* JamfIntegrationView.swift */; };
+		200000000000000000000010 /* PayloadPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000010 /* PayloadPreviewView.swift */; };
+		200000000000000000000011 /* ProfileBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000011 /* ProfileBuilderView.swift */; };
+		200000000000000000000012 /* WorkspaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000012 /* WorkspaceView.swift */; };
+		200000000000000000000013 /* BlueprintCompiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000013 /* BlueprintCompiler.swift */; };
+		200000000000000000000014 /* JamfPlatformConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000014 /* JamfPlatformConnector.swift */; };
+		200000000000000000000015 /* AccessLicence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000015 /* AccessLicence.swift */; };
+		200000000000000000000016 /* AccessSecureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000016 /* AccessSecureStore.swift */; };
+		200000000000000000000017 /* TrustedTimeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000017 /* TrustedTimeProvider.swift */; };
+		200000000000000000000018 /* AccessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000018 /* AccessController.swift */; };
+		200000000000000000000019 /* AccessGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000019 /* AccessGateView.swift */; };
+		20000000000000000000001A /* LicenceAdministrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30000000000000000000001A /* LicenceAdministrationView.swift */; };
+		20000000000000000000001B /* QwenLocalModelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30000000000000000000001C /* QwenLocalModelService.swift */; };
+		200000000000000000000100 /* JamfSchoolKnowledgeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000100 /* JamfSchoolKnowledgeBase.swift */; };
+		200000000000000000000101 /* AssistantAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000101 /* AssistantAttachment.swift */; };
+		200000000000000000000102 /* ExternalAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000102 /* ExternalAIService.swift */; };
+		200000000000000000000103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000103 /* Assets.xcassets */; };
+		200000000000000000000104 /* CentralLicenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000104 /* CentralLicenceService.swift */; };
+		20000000000000000000001C /* MLXLLM in Frameworks */ = {isa = PBXBuildFile; productRef = B00000000000000000000001 /* MLXLLM */; };
+		20000000000000000000001D /* MLXLMCommon in Frameworks */ = {isa = PBXBuildFile; productRef = B00000000000000000000002 /* MLXLMCommon */; };
+		20000000000000000000001E /* MLXHuggingFace in Frameworks */ = {isa = PBXBuildFile; productRef = B00000000000000000000003 /* MLXHuggingFace */; };
+		20000000000000000000001F /* HuggingFace in Frameworks */ = {isa = PBXBuildFile; productRef = B00000000000000000000004 /* HuggingFace */; };
+		200000000000000000000020 /* Tokenizers in Frameworks */ = {isa = PBXBuildFile; productRef = B00000000000000000000005 /* Tokenizers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		300000000000000000000001 /* AppleFoundationModelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI/AppleFoundationModelService.swift; sourceTree = "<group>"; };
+		300000000000000000000002 /* LocalModelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI/LocalModelService.swift; sourceTree = "<group>"; };
+		300000000000000000000003 /* MDMCopilotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/MDMCopilotApp.swift; sourceTree = "<group>"; };
+		300000000000000000000004 /* RestrictionCatalogue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalogue/RestrictionCatalogue.swift; sourceTree = "<group>"; };
+		300000000000000000000005 /* ProfileCompiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compiler/ProfileCompiler.swift; sourceTree = "<group>"; };
+		300000000000000000000006 /* ValidationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compiler/ValidationEngine.swift; sourceTree = "<group>"; };
+		300000000000000000000007 /* JamfSchoolConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jamf/JamfSchoolConnector.swift; sourceTree = "<group>"; };
+		300000000000000000000008 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/ChatMessage.swift; sourceTree = "<group>"; };
+		300000000000000000000009 /* ProfileIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/ProfileIntent.swift; sourceTree = "<group>"; };
+		30000000000000000000000A /* JamfCredentialStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Security/JamfCredentialStore.swift; sourceTree = "<group>"; };
+		30000000000000000000000B /* ConnectionSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/ConnectionSettingsViewModel.swift; sourceTree = "<group>"; };
+		30000000000000000000000C /* WorkspaceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/WorkspaceViewModel.swift; sourceTree = "<group>"; };
+		30000000000000000000000D /* AIConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/AIConversationView.swift; sourceTree = "<group>"; };
+		30000000000000000000000E /* ConnectionSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ConnectionSettingsView.swift; sourceTree = "<group>"; };
+		30000000000000000000000F /* JamfIntegrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/JamfIntegrationView.swift; sourceTree = "<group>"; };
+		300000000000000000000010 /* PayloadPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/PayloadPreviewView.swift; sourceTree = "<group>"; };
+		300000000000000000000011 /* ProfileBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ProfileBuilderView.swift; sourceTree = "<group>"; };
+		300000000000000000000012 /* WorkspaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/WorkspaceView.swift; sourceTree = "<group>"; };
+		300000000000000000000013 /* BlueprintCompiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compiler/BlueprintCompiler.swift; sourceTree = "<group>"; };
+		300000000000000000000014 /* JamfPlatformConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jamf/JamfPlatformConnector.swift; sourceTree = "<group>"; };
+		300000000000000000000015 /* AccessLicence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Security/AccessLicence.swift; sourceTree = "<group>"; };
+		300000000000000000000016 /* AccessSecureStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Security/AccessSecureStore.swift; sourceTree = "<group>"; };
+		300000000000000000000017 /* TrustedTimeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Security/TrustedTimeProvider.swift; sourceTree = "<group>"; };
+		300000000000000000000018 /* AccessController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Security/AccessController.swift; sourceTree = "<group>"; };
+		300000000000000000000019 /* AccessGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/AccessGateView.swift; sourceTree = "<group>"; };
+		30000000000000000000001A /* LicenceAdministrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/LicenceAdministrationView.swift; sourceTree = "<group>"; };
+		30000000000000000000001B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = App/Info.plist; sourceTree = "<group>"; };
+		30000000000000000000001C /* QwenLocalModelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI/QwenLocalModelService.swift; sourceTree = "<group>"; };
+		300000000000000000000100 /* JamfSchoolKnowledgeBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI/JamfSchoolKnowledgeBase.swift; sourceTree = "<group>"; };
+		300000000000000000000101 /* AssistantAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI/AssistantAttachment.swift; sourceTree = "<group>"; };
+		300000000000000000000102 /* ExternalAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI/ExternalAIService.swift; sourceTree = "<group>"; };
+		300000000000000000000103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		300000000000000000000104 /* CentralLicenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Security/CentralLicenceService.swift; sourceTree = "<group>"; };
+		900000000000000000000001 /* MDM Profile Builder Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MDM Profile Builder Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		600000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20000000000000000000001C /* MLXLLM in Frameworks */,
+				20000000000000000000001D /* MLXLMCommon in Frameworks */,
+				20000000000000000000001E /* MLXHuggingFace in Frameworks */,
+				20000000000000000000001F /* HuggingFace in Frameworks */,
+				200000000000000000000020 /* Tokenizers in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		400000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				400000000000000000000002 /* MDMCopilot */,
+				400000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		400000000000000000000002 /* MDMCopilot */ = {
+			isa = PBXGroup;
+			children = (
+				300000000000000000000001 /* AppleFoundationModelService.swift */,
+				300000000000000000000002 /* LocalModelService.swift */,
+				300000000000000000000100 /* JamfSchoolKnowledgeBase.swift */,
+				300000000000000000000101 /* AssistantAttachment.swift */,
+				300000000000000000000102 /* ExternalAIService.swift */,
+				300000000000000000000103 /* Assets.xcassets */,
+				300000000000000000000003 /* MDMCopilotApp.swift */,
+				300000000000000000000004 /* RestrictionCatalogue.swift */,
+				300000000000000000000005 /* ProfileCompiler.swift */,
+				300000000000000000000006 /* ValidationEngine.swift */,
+				300000000000000000000007 /* JamfSchoolConnector.swift */,
+				300000000000000000000008 /* ChatMessage.swift */,
+				300000000000000000000009 /* ProfileIntent.swift */,
+				30000000000000000000000A /* JamfCredentialStore.swift */,
+				30000000000000000000000B /* ConnectionSettingsViewModel.swift */,
+				30000000000000000000000C /* WorkspaceViewModel.swift */,
+				30000000000000000000000D /* AIConversationView.swift */,
+				30000000000000000000000E /* ConnectionSettingsView.swift */,
+				30000000000000000000000F /* JamfIntegrationView.swift */,
+				300000000000000000000010 /* PayloadPreviewView.swift */,
+				300000000000000000000011 /* ProfileBuilderView.swift */,
+				300000000000000000000012 /* WorkspaceView.swift */,
+				300000000000000000000013 /* BlueprintCompiler.swift */,
+				300000000000000000000014 /* JamfPlatformConnector.swift */,
+				300000000000000000000015 /* AccessLicence.swift */,
+				300000000000000000000016 /* AccessSecureStore.swift */,
+				300000000000000000000017 /* TrustedTimeProvider.swift */,
+				300000000000000000000018 /* AccessController.swift */,
+				300000000000000000000104 /* CentralLicenceService.swift */,
+				300000000000000000000019 /* AccessGateView.swift */,
+				30000000000000000000001A /* LicenceAdministrationView.swift */,
+				30000000000000000000001B /* Info.plist */,
+				30000000000000000000001C /* QwenLocalModelService.swift */,
+			);
+			name = MDMCopilot;
+			path = Sources/MDMCopilot;
+			sourceTree = "<group>";
+		};
+		400000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				900000000000000000000001 /* MDM Profile Builder Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		500000000000000000000001 /* MDMCopilot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800000000000000000000002 /* Build configuration list for PBXNativeTarget "MDMCopilot" */;
+			buildPhases = (
+				600000000000000000000001 /* Sources */,
+				600000000000000000000002 /* Frameworks */,
+				600000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDMCopilot;
+			packageProductDependencies = (
+				B00000000000000000000001 /* MLXLLM */,
+				B00000000000000000000002 /* MLXLMCommon */,
+				B00000000000000000000003 /* MLXHuggingFace */,
+				B00000000000000000000004 /* HuggingFace */,
+				B00000000000000000000005 /* Tokenizers */,
+			);
+			productName = MDMCopilot;
+			productReference = 900000000000000000000001 /* MDM Profile Builder Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		100000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					500000000000000000000001 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = 800000000000000000000001 /* Build configuration list for PBXProject "MDMCopilot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 400000000000000000000001;
+			packageReferences = (
+				A00000000000000000000001 /* XCRemoteSwiftPackageReference "mlx-swift-lm" */,
+				A00000000000000000000002 /* XCRemoteSwiftPackageReference "swift-huggingface" */,
+				A00000000000000000000003 /* XCRemoteSwiftPackageReference "swift-transformers" */,
+			);
+			productRefGroup = 400000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				500000000000000000000001 /* MDMCopilot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		600000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200000000000000000000103 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		600000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200000000000000000000001 /* AppleFoundationModelService.swift in Sources */,
+				200000000000000000000002 /* LocalModelService.swift in Sources */,
+				200000000000000000000100 /* JamfSchoolKnowledgeBase.swift in Sources */,
+				200000000000000000000101 /* AssistantAttachment.swift in Sources */,
+				200000000000000000000102 /* ExternalAIService.swift in Sources */,
+				200000000000000000000003 /* MDMCopilotApp.swift in Sources */,
+				200000000000000000000004 /* RestrictionCatalogue.swift in Sources */,
+				200000000000000000000005 /* ProfileCompiler.swift in Sources */,
+				200000000000000000000006 /* ValidationEngine.swift in Sources */,
+				200000000000000000000007 /* JamfSchoolConnector.swift in Sources */,
+				200000000000000000000008 /* ChatMessage.swift in Sources */,
+				200000000000000000000009 /* ProfileIntent.swift in Sources */,
+				20000000000000000000000A /* JamfCredentialStore.swift in Sources */,
+				20000000000000000000000B /* ConnectionSettingsViewModel.swift in Sources */,
+				20000000000000000000000C /* WorkspaceViewModel.swift in Sources */,
+				20000000000000000000000D /* AIConversationView.swift in Sources */,
+				20000000000000000000000E /* ConnectionSettingsView.swift in Sources */,
+				20000000000000000000000F /* JamfIntegrationView.swift in Sources */,
+				200000000000000000000010 /* PayloadPreviewView.swift in Sources */,
+				200000000000000000000011 /* ProfileBuilderView.swift in Sources */,
+				200000000000000000000012 /* WorkspaceView.swift in Sources */,
+				200000000000000000000013 /* BlueprintCompiler.swift in Sources */,
+				200000000000000000000014 /* JamfPlatformConnector.swift in Sources */,
+				200000000000000000000015 /* AccessLicence.swift in Sources */,
+				200000000000000000000016 /* AccessSecureStore.swift in Sources */,
+				200000000000000000000017 /* TrustedTimeProvider.swift in Sources */,
+				200000000000000000000018 /* AccessController.swift in Sources */,
+				200000000000000000000104 /* CentralLicenceService.swift in Sources */,
+				200000000000000000000019 /* AccessGateView.swift in Sources */,
+				20000000000000000000001A /* LicenceAdministrationView.swift in Sources */,
+				20000000000000000000001B /* QwenLocalModelService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		700000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		700000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+		};
+			name = Release;
+		};
+		700000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/MDMCopilot/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "MDM Profile Builder Demo";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_MDMCopilotLicencePublicKey = "$(MDM_COPILOT_LICENCE_PUBLIC_KEY)";
+				MARKETING_VERSION = 0.1.0;
+				MDM_COPILOT_LICENCE_PUBLIC_KEY = "";
+				MDM_COPILOT_DISTRIBUTION_EDITION = development;
+				MDM_COPILOT_LEASE_PUBLIC_KEY = "";
+				MDM_COPILOT_LICENCE_SERVICE_URL = "";
+				MDM_COPILOT_REQUIRES_CENTRAL_LICENCE_SERVICE = NO;
+				MDM_COPILOT_REQUIRES_ONLINE_LICENCE_CHECK = NO;
+				MDM_COPILOT_STANDARD_BUNDLE_IDENTIFIER = dev.example.MDMProfileBuilder;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.example.MDMProfileBuilder.local;
+				PRODUCT_NAME = "MDM Profile Builder Demo";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.10;
+			};
+			name = Debug;
+		};
+		700000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/MDMCopilot/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "MDM Profile Builder Demo";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_MDMCopilotLicencePublicKey = "$(MDM_COPILOT_LICENCE_PUBLIC_KEY)";
+				MARKETING_VERSION = 0.1.0;
+				MDM_COPILOT_LICENCE_PUBLIC_KEY = "";
+				MDM_COPILOT_DISTRIBUTION_EDITION = development;
+				MDM_COPILOT_LEASE_PUBLIC_KEY = "";
+				MDM_COPILOT_LICENCE_SERVICE_URL = "";
+				MDM_COPILOT_REQUIRES_CENTRAL_LICENCE_SERVICE = NO;
+				MDM_COPILOT_REQUIRES_ONLINE_LICENCE_CHECK = NO;
+				MDM_COPILOT_STANDARD_BUNDLE_IDENTIFIER = dev.example.MDMProfileBuilder;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.example.MDMProfileBuilder.local;
+				PRODUCT_NAME = "MDM Profile Builder Demo";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.10;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		800000000000000000000001 /* Build configuration list for PBXProject "MDMCopilot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700000000000000000000001 /* Debug */,
+				700000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800000000000000000000002 /* Build configuration list for PBXNativeTarget "MDMCopilot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700000000000000000000003 /* Debug */,
+				700000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A00000000000000000000001 /* XCRemoteSwiftPackageReference "mlx-swift-lm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ml-explore/mlx-swift-lm.git";
+			requirement = {
+				kind = exactVersion;
+				version = 3.31.4;
+			};
+		};
+		A00000000000000000000002 /* XCRemoteSwiftPackageReference "swift-huggingface" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huggingface/swift-huggingface.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.9.0;
+			};
+		};
+		A00000000000000000000003 /* XCRemoteSwiftPackageReference "swift-transformers" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huggingface/swift-transformers.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.3.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B00000000000000000000001 /* MLXLLM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000000000000000000001 /* XCRemoteSwiftPackageReference "mlx-swift-lm" */;
+			productName = MLXLLM;
+		};
+		B00000000000000000000002 /* MLXLMCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000000000000000000001 /* XCRemoteSwiftPackageReference "mlx-swift-lm" */;
+			productName = MLXLMCommon;
+		};
+		B00000000000000000000003 /* MLXHuggingFace */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000000000000000000001 /* XCRemoteSwiftPackageReference "mlx-swift-lm" */;
+			productName = MLXHuggingFace;
+		};
+		B00000000000000000000004 /* HuggingFace */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000000000000000000002 /* XCRemoteSwiftPackageReference "swift-huggingface" */;
+			productName = HuggingFace;
+		};
+		B00000000000000000000005 /* Tokenizers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000000000000000000003 /* XCRemoteSwiftPackageReference "swift-transformers" */;
+			productName = Tokenizers;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 100000000000000000000001 /* Project object */;
+}
